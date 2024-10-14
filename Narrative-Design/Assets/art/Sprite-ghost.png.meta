@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 4c4bda2939bd5444aba94a0111afad6a
+guid: c83c48a3369583f4481113e3f8cecea5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2805412867945064626
-    second: Slime-Shee22t_0
+      213: 88704624985967089
+    second: Sprite-ghost_0
+  - first:
+      213: -2869390376365817701
+    second: Sprite-ghost_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Slime-Shee22t_0
+      name: Sprite-ghost_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
-        width: 25
-        height: 29
+        x: 5
+        y: 42
+        width: 9
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +118,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b8ec22c324dee620800000000000000
-      internalID: 2805412867945064626
+      spriteID: 1f9093ee2642b3100800000000000000
+      internalID: 88704624985967089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-ghost_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 6
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b908ac6c7a0ed28d0800000000000000
+      internalID: -2869390376365817701
       vertices: []
       indices: 
       edges: []
@@ -135,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Slime-Shee22t_0: 2805412867945064626
+      Sprite-ghost_0: 88704624985967089
+      Sprite-ghost_1: -2869390376365817701
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

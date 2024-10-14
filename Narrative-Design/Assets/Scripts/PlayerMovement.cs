@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         float dt = Time.deltaTime;
-        float speed = 10.0f;
+        float speed = 5.0f;
         Vector3 change = direction * speed * dt;
         transform.position = transform.position + change;
     }
