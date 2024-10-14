@@ -1,0 +1,25 @@
+CONTROLS:
+WASD W for jump, A and D for left and right movement respectively.
+Unity Instructions
+In the Assets>Scenes folder, there is a HUBscene file, drag this into the hierarchy
+ACKNOWLEDGEMENTS:
+One Hit Revolution GDD
+Declan Finley - 200618382
+	Character Placeholder - New_Piskel
+Joshua Choi - 200614345
+	Tilemap - Created in Aseprite
+	Level Design Sketch
+	Character Placeholder - ratguard
+Kenneth Rundle - 200602448
+	Created Git Repository
+	Character Placeholder - bat-sprite
+Suzanna Lezhenko - 200556184
+	Player Movement - Following tutorial
+		https://www.youtube.com/watch?v=ruyshASnj9A&ab_channel=AlexDev
+	Forming Project in Unity
+	Character Placeholder - Sprite-ghost
+	Character Placeholder - Sprite-00065ר
+Tai Thai - 200619087
+	Character Placeholder - Rats_face
+Zachary Tyler - 200559523
+	Character Placeholder - mousey
