@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4c0dd6ce44096fe4eba713f553f15edd
+guid: 09acfc813156eea43a95abf01e08d64c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3011822033063906106
-    second: CaveExit_0
+      213: -1335911208589265475
+    second: BatDraft_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CaveExit_0
+      name: BatDraft_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 4000
-        height: 3000
+        width: 43
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6c4f78871dbd336d0800000000000000
-      internalID: -3011822033063906106
+      spriteID: db5f29075d3e57de0800000000000000
+      internalID: -1335911208589265475
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      CaveExit_0: -3011822033063906106
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

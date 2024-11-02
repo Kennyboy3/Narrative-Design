@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4c0dd6ce44096fe4eba713f553f15edd
+guid: c550bc1b37d9d9442a17ae6a8a5fdd81
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3011822033063906106
-    second: CaveExit_0
+      213: 935004877899775364
+    second: Rat-Guard_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CaveExit_0
+      name: Rat-Guard_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 4000
-        height: 3000
+        width: 43
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6c4f78871dbd336d0800000000000000
-      internalID: -3011822033063906106
+      spriteID: 48d397a8bfdc9fc00800000000000000
+      internalID: 935004877899775364
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      CaveExit_0: -3011822033063906106
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
