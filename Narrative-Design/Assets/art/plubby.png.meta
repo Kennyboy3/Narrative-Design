@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      plubby_0: 3879549748172442150
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
