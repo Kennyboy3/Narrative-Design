@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Wood-mushrooms_0: -32441072552321801
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
