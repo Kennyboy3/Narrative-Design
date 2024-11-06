@@ -9,19 +9,8 @@ public class LeaveShop : MonoBehaviour
     {
         if (playerInRange && Input.GetKeyDown(KeyCode.E))
         {
-            SceneManager.sceneLoaded += OnSceneLoaded;
-            SceneManager.LoadScene(SceneTransitionManager.Instance.previousScene);
+            SceneManager.LoadScene("UpperRing");
         }
-    }
-
-    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    {
-        GameObject player = GameObject.FindWithTag("Player");
-        if (player != null)
-        {
-            player.transform.position = SceneTransitionManager.Instance.playerPosition;
-        }
-        SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
     void OnTriggerEnter2D(Collider2D other)
