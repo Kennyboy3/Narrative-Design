@@ -1,18 +1,18 @@
 using UnityEngine;
-using Yarn.Unity;
+using Yarn.Unity; 
 
 public class ShopkeeperTalk : MonoBehaviour
 {
     private bool playerInRange;
-    public DialogueRunner dialogueRunner;
-    public string startNode = "StartShop";
+    public DialogueRunner dialogueRunner; 
+    public string startNode = "StartShop"; 
 
     void Update()
     {
         if (playerInRange && Input.GetKeyDown(KeyCode.E))
         {
-            if (dialogueRunner.IsDialogueRunning == false) 
-            { 
+            if (!dialogueRunner.IsDialogueRunning)
+            {
                 dialogueRunner.StartDialogue(startNode); 
             }
         }
