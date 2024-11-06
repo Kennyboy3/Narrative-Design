@@ -1,0 +1,25 @@
+﻿title: Start
+tags:
+position: -28,-646
+---
+Farmer: Greetings travler, how can I help you on this fine day
+    Plubby: Greetings, 
+        -> Do you have any info on this...
+            <<jump info>>
+        -> Do you have anything for me?
+            <<jump item>>
+===
+
+title: info
+position: 190,-504
+---
+Farmer: Why of course. A lot of stuff has been happaning around here. This is all I have.
+    Plubby: Thank you
+===
+
+title: item
+position: 52,93
+---
+    Farmer: Why of course. Here's an item that will help.
+    Plubby: Thank you
+===
