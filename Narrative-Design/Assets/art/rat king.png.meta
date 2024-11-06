@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 752082b161790fc4b980ea05c9ddf537
+guid: ae5c098e4f4ed764c88ab5af41912f52
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3879549748172442150
-    second: plubby_0
+      213: -175968878701772674
+    second: rat king_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: plubby_0
+      name: rat king_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 9
         y: 0
-        width: 144
-        height: 121
+        width: 55
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 62a4644f0fde6d530800000000000000
-      internalID: 3879549748172442150
+      spriteID: e700575bc35de8df0800000000000000
+      internalID: -175968878701772674
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      plubby_0: 3879549748172442150
+      rat king_0: -175968878701772674
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
