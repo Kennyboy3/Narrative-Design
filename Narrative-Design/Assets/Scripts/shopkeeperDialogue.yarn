@@ -1,6 +1,6 @@
-/// Shopkeeper Dialogue by Declan Finley 200618382
 title: StartShop
 ---
+Shopkeeper Dialogue by Declan Finley 200618382
 Shopkeeper: Hey there, stranger! What brings you in today?
 -> Plubby: Just taking a look around.
     Shopkeeper: Gotcha. I'm here if you need me.
