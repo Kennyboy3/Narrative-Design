@@ -1,0 +1,171 @@
+﻿title: Start
+tags:
+position: 56,-620
+---
+Rat King: Greetings usurper, to what doth I owe the pleasure?
+    -> I would like to speak about my cause
+        <<jump Short1>>
+    -> Usurper?
+        <<jump Long1>>
+===
+
+title: Long1
+position: -204,-437
+---
+Rat King: Tales of thy antics have spread far across the lands
+Rat King: The high ones have becometh acknown to thy crimes
+Rat King: While they doth yet knoweth wherefore many of their men didst not returneth
+Rat King: Tis only a matter of time before they maketh a martyr of thee
+    -> They killed my entire clan
+        <<jump Long1a>>
+    -> I had to do something...
+        Rat King: Thee knoweth they won't rest until thee art hath found
+        Rat King: Thee hast putteth us all in harms way
+        -> They invaded our ceremony, no one was left but me
+            <<jump Long1a>>
+        -> I know what I have started
+            <<jump Long1b>>
+===
+
+title: Short1
+position: 173,-232
+---
+Rat King: Very well,
+Rat King: I figured thee wouldst beest here shortly
+Rat King: ...
+Rat King: Well go on then
+    <<jump Connecter1>>
+===
+
+title: Long1a
+position: -288,-235
+---
+Rat King: ...
+Rat King: I knoweth thy anguish
+Rat King: We hast not recovered from the last end of season exp bonus
+Rat King: ...
+Rat King: I can hardly remember the days of old
+Rat King: Ere the ruleth of the high ones
+Rat King: Mine people doth filled the forests
+Rat King: ...
+    <<jump Connecter1>>
+===
+
+title: Long1b
+position: -73,-232
+---
+Rat king: Then why didst thee feeleth necessary?
+    <<jump Connecter1>>
+===
+
+title: Connecter1
+position: 55,-87
+---
+-> The high ones must be stopped
+    Rat King: Maybe so
+    Rat King: But can beest done
+    Rat King: The world the elves and humans hath made cannot beest undone
+    Rat King: They art too strong
+        -> But I have fought back, and I have succeded
+            Rat King: Nothing more than luck
+            Rat King: This shall not last for long
+                -> I know something that they did not want us to
+                    <<jump Route2>>
+                -> I am proof that we can change things, please lend me your army
+                    Rat King: Such arrogance
+                    <<jump EarlyEnding>>
+-> Our people have suffered for so long
+    Rat King: ...
+    -> Now is the time for action
+        Rat King: What is thence for us to act upon?
+        Rat King: The world the elves and humans hath made cannot beest undone
+        Rat King: They art too strong
+            -> I know something that they did not want us to
+                <<jump Route2>>
+            -> I am proof that we can change things, please lend me your army
+                Rat King: Such arrogance
+                    <<jump EarlyEnding>>
+    -> I understand you are wary
+        <<jump Route1>>
+===
+
+title: Route2
+position: -45,186
+---
+Rat King: What could yondst possible beest
+    -> The humans and elves are not stronger than us
+        Rat King: ...
+            -> We can kill them as easy as they kill us
+                Rat King: This cannot beest true
+                    -> It is not by luck that I have killed so many
+                        They lie to make us think we are weak
+                            <<jump EndingRoute2>>
+                    -> Allow me to take some of your subjects with me
+                        We can make a difference
+                            <<jump EndingRoute2>>
+===
+
+title: EarlyEnding
+position: 197,51
+---
+Rat King: I doth not hast an army to lend thee
+Rat King: I shall not lead what little is left of mine own to their demise
+Rat King: I bethink it best yond thee leave
+===
+
+title: Route1
+position: -296,50
+---
+-> I know how it feels to be unsure
+    I felt the same when they slaughtered my clan
+    not knowing what to do next
+    But for my people, I knew I msut take action
+    I hope that your people can join me in my fight
+        Rat King: Tis a tragedy, what happened to your clan
+        Rat King: But mine own shall not beest next
+        Rat King: We hast survived by my leadership
+        Rat King: Mine own shall only survive by hiding
+            -> The high ones become greedier, coming deeper in the caves
+                -> We must act quickly to keep your people safe
+                    <<jump EndingRoute1>>
+                -> What is there left to do but fight back
+                    Rat King: How can we fight?
+                    Rat King: When they are born stronger
+                        -> The high ones lie about their strength
+                            It is not by chance that I have killed so many
+                        <<jump EndingRoute2>>
+            -> It won't be long before they reach your hiding spot
+
+-> But I come with news that can change things
+    <<jump Route2>>
+===
+
+title: EndingRoute1
+position: -407,351
+---
+Rat King: Legends speak of an old dwarf artifact
+Rat King: Lost deep in these caves
+Rat King: It wouldst allow us to maketh new tunnels in an instant
+    -> You could dig deeper ino the earth
+        Away from the high ones
+            Rat King: If thee couldst find this for us
+            Rat King: We couldst have a chance
+            Rat King: I wouldst reward thee handsomely
+                -> I will find it for you
+                    Rat King: I shall lend you an old map of the caves
+                    Rat King: I thank thee for they help
+
+===
+
+title: EndingRoute2
+position: -167,351
+---
+Rat King: Thee art acknown to mine hesitation
+Rat King: Upon learning of these tidings, I can understand
+Rat King: I will alloweth thee to take my people to the fight
+Rat King: However only those willing to fight
+    -> Thank you, your highness
+        Rat King: The gatheres are on the surface right now
+        Rat King: Prithee wend and find them
+        Rat King: I want everyone here ere I announce the plan to them
+===
