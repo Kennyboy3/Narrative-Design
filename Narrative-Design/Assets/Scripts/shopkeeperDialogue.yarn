@@ -9,12 +9,12 @@ Shopkeeper: Hey there, stranger! What brings you in today?
     Plubby: Thanks.
      <<jump End>>
 -> Plubby: The store's looking pretty empty. What's up with that?
+    Shopkeeper: You've noticed, huh? I suppose it's hard not to.
     <<jump Questions>>
 ===
 
 title: Questions
 ---
-Shopkeeper: You've noticed, huh? I suppose it's hard not to.
     -> Plubby: What's the situation? 
         Shopkeeper: Take a look around us, partner. 
         Shopkeeper: You've seen those idiots in the forest, haven't you?
