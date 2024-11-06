@@ -262,9 +262,9 @@ GameObject:
   m_Component:
   - component: {fileID: 137526519}
   - component: {fileID: 137526518}
-  - component: {fileID: 137526517}
   - component: {fileID: 137526516}
   - component: {fileID: 137526515}
+  - component: {fileID: 137526520}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -298,7 +298,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &137526516
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -345,18 +345,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.8125, y: 2}
   m_EdgeRadius: 0
---- !u!114 &137526517
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 137526514}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c12a5a97cee39374bb06afe3a9c8090e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &137526518
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -427,6 +415,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &137526520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137526514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c12a5a97cee39374bb06afe3a9c8090e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  jump: 10
+  gravityScale: 3
 --- !u!1 &153333658
 GameObject:
   m_ObjectHideFlags: 0
