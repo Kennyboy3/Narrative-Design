@@ -1,0 +1,47 @@
+title: Start
+---
+Shopkeeper: Hey there, stranger! What brings you in today?
+-> Plubby: Just taking a look around.
+    Shopkeeper: Gotcha. I'm here if you need me.
+    <<jump End>>
+-> Plubby: What's in stock today?
+    Shopkeeper: Whatcha see is whatcha get, partner. My goods are on the right.
+    Plubby: Thanks.
+     <<jump End>>
+-> Plubby: The store's looking pretty empty. What's up with that?
+    <<jump Questions>>
+===
+
+title: Questions
+---
+Shopkeeper: You've noticed, huh? I suppose it's hard not to.
+    -> Plubby: What's the situation? 
+        Shopkeeper: Take a look around us, partner. 
+        Shopkeeper: You've seen those idiots in the forest, haven't you?
+        Plubby: Humans, right?
+        Shopkeeper: Yeah, that's it. Pricks... 
+        Shopkeeper: We haven't been able gather goods with those monsters roaming.
+        Shopkeeper: We're dropping like flies, slime. You ever see a rat drop?
+        Plubby: Rat droppings...?
+        Shopkeeper: Thing is, there's not much we can do about it. 
+        Shopkeeper: It's only a matter of time before they trample the rat kingdom.
+        <<jump Questions>>
+    -> Plubby: Why target the forest?
+        Shopkeeper: It's a cruel world, my friend.
+        Shopkeeper: We've been backed into this corner for centuries.
+        Shopkeeper: This is the only place creatures like you and I could roam without being slaughtered.
+        Shopkeeper: 'til now, of course. Alas, the pricks have entered our forest.
+        Plubby: Why now? Why force us to stay out of sight, only to force us into their crosshairs?
+        Shopkeeper: My guess? Everything in the outside world has been harvested.
+        Shopkeeper: We silently agreed to keep to the forest and avoid the outside world.
+        Shopkeeper: Now, this forest is the best place to get resources. 
+        Shopkeeper: And so, here they are. Chopping our trees, taking our food, and killing our people.
+        <<jump Questions>>
+    -> Plubby: See you around.
+        <<jump End>>
+===
+
+title: End
+---
+Shopkeeper: Take care now, stranger.
+===
