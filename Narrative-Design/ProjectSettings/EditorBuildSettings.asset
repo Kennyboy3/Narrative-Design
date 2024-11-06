@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Upper Ring - Declan.unity
+    path: Assets/Scenes/UpperRing.unity
     guid: b9e5ae1b4caf640479695afb0fc53385
   - enabled: 1
     path: Assets/Scenes/RodentWares.unity
