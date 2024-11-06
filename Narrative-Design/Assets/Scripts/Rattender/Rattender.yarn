@@ -1,0 +1,40 @@
+﻿title: Start
+---
+by Zachary Tyler - 200559523
+Bartender: Welcome to the Tavern, pal. Need a drink?
+
+-> Plubby: No, thank you.
+    Bartender: Not thirsty, huh? Then why'd you come here?
+-> Plubby: Just a glass of water please.
+    Bartender: Coming right up.
+
+Plubby: You must hear a lot of gossip as a Bartender.
+Bartender: Maybe I do, why? You a cop?
+
+-> Plubby: No, but I have some questions.
+    <<jump Questions>>
+-> Plubby: Yes I am.
+    <<jump Cop>>
+===
+
+title: Questions
+---
+Bartender: What'd you wanna know?
+
+-> Plubby: What do you know about humans?
+    Bartender: Terrible creatures, those humans. They keep chopping down more and more of the forest without regard for the rest of ua who live here. I heard they wiped out most of our food supply with their last expansion.
+    <<jump Questions>>
+-> Plubby: What do you know about the rat king?
+    Bartender: The king? He's alright I guess. Can't really blame him for the food shortage when the humans are the ones destroying things. I heard he's looking for someone to help forage for more supplies.
+    <<jump Questions>>
+-> Plubby: What do you know about the river blockage?
+    Bartender: The water has been blocked by a tree the humans cut down. River's almost completly dried up! I heard the workers sent to move it are on strike due to the food shortage.
+    <<jump Questions>>
+-> Plubby: That's all for now.
+    Bartender: Alright, see ya pal.
+===
+
+title: Cop
+---
+Bartender: I don't talk to cops.
+===
