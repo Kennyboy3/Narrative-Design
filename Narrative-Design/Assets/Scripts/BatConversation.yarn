@@ -1,0 +1,29 @@
+﻿title: BatConversation
+---
+
+by Thai Tai - 200619087
+
+Bat: Hello there, I’m Bat, a trader from another part of the forest. There’s a lot more food where I come from.
+Bat: I’ve come here to trade fruit, and business has been booming recently!
+
+-> "That’s interesting! Why has business been so good?"
+    Bat: It’s quite simple, really. The rats around here seem to have lost their steady food sources.
+    Bat: And with higher demand, my business has naturally grown.
+
+-> "What kinds of fruits are you bringing here?"
+    Bat: Mostly rare fruits from my region, like green raspberries, sweet pineapples, and wild grapes.
+    Bat: Each fruit has its own unique value, and folks around here seem to love them.
+
+
+Bat: With the way things are going, I might be staying here longer than I originally planned.
+Bat: After all, this forest is peaceful, and business is good.
+
+-> "Don’t you think this is a bit unfair for the rats?"
+    Bat: Oh, I’ve thought about that. But this is nature—every creature has to find its own way to survive.
+    Bat: The rats can always look for other food sources. I’m just a merchant, taking advantage of the opportunities around me.
+
+-> "Goodbye, and best of luck with your business."
+    Bat: Thank you! If you ever need any special fruits, don’t hesitate to visit me.
+
+<<stop>>
+===
