@@ -1,8 +1,8 @@
-﻿title: Start
+﻿title: RatKing
 tags:
 position: 56,-620
 ---
-Rat King: Greetings usurper, to what doth I owe the pleasure?
+Rat King: Greetings traveller, why hast thou come here
     -> I would like to speak about my cause
         <<jump Short1>>
     -> Usurper?
