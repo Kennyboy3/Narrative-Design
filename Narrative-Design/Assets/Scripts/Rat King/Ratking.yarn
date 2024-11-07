@@ -1,35 +1,50 @@
 ﻿title: RatKing
 ---
+by Joshua Choi - 200614345
 Rat King: Greetings traveller, why hast thou come to me?
-    -> The water from my cave is gone
+Plubby: The water from my cave is gone
 Rat King: Ah yes, the presence of our enemies hast been felt deep in the forest.
     -> Enemies?
-        <<jump Enemeies>>
+        <<jump Enemies>>
     -> What happened to the river?
+        <<jump River>>
 ===
 
 title: Enemies
 ---
-Rat King: Tales of thy antics have spread far across the lands
-Rat King: The high ones have becometh acknown to thy crimes
-Rat King: While they doth yet knoweth wherefore many of their men didst not returneth
-Rat King: Tis only a matter of time before they maketh a martyr of thee
-    -> They killed my entire clan
-        <<jump Long1a>>
-    -> I had to do something...
-        Rat King: Thee knoweth they won't rest until thee art hath found
-        Rat King: Thee hast putteth us all in harms way
-        -> They invaded our ceremony, no one was left but me
-            <<jump Long1a>>
-        -> I know what I have started
-            <<jump Long1b>>
+Rat King: The humans hast been building a town, this town is very close to us.
+Rat King: Mankind hath not dare to come this close to the Everdark before.
+Rat King: Their settlement hath pushed into the forest, they grow closer to my kingdom every day.
+    -> Why are they here?
+        Rat King: Those humans art expanding their terretories I suppose.
+        Rat King: Our scouts seeth them taking from the forest.
+        Rat King: Every day they grow closer to our kingdom.
+        Plubby: did they have something to do with the river?
+            <<jump River>>
+    -> Did they block off the river?
+        <<jump River>>
 ===
 
-title: Short1
+title: River
 ---
-Rat King: Very well,
-Rat King: I figured thee wouldst beest here shortly
-Rat King: ...
-Rat King: Well go on then
-    <<jump Connecter1>>
+Rat King: They hast built a dam very reccently.
+Rat King: My rats built our farm off of that river.
+Rat King: We can not grow any crops.
+Plubby: The river provided water for our cave.
+Rat King: I thought wast odd to seeth thee at this time of year young one.
+Rat King: The dam hath interrupted thy hibernation.
+Rat King: Doth tell young one, will you help us with our fight?
+    -> Yes.
+        <<jump End>>
+    -> What's in it for me?
+        Rat King: Well wherefore is it thee art here?
+        Rat King: We hast the same goal in sight.
+            <<jump End>>
+===
+
+title: End
+---
+Rat King: We will drive the humans out of the forest,
+Rat King: and take back our land.
+Rat King: With your help we will destroy the dam, and the river will flow through the Everdark once more.
 ===

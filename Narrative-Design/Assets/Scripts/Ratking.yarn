@@ -17,8 +17,10 @@ Rat King: Mankind hath not dare to come this close to the Everdark before.
 Rat King: Their settlement hath pushed into the forest, they grow closer to my kingdom every day.
     -> Why are they here?
         Rat King: Those humans art expanding their terretories I suppose.
-        Rat King: Our scouts see them 
+        Rat King: Our scouts seeth them taking from the forest.
         Rat King: Every day they grow closer to our kingdom.
+        Plubby: did they have something to do with the river?
+            <<jump River>>
     -> Did they block off the river?
         <<jump River>>
 ===
@@ -31,6 +33,18 @@ Rat King: We can not grow any crops.
 Plubby: The river provided water for our cave.
 Rat King: I thought wast odd to seeth thee at this time of year young one.
 Rat King: The dam hath interrupted thy hibernation.
-Rat King: Doth tell young one, will you help us with our 
+Rat King: Doth tell young one, will you help us with our fight?
+    -> Yes.
+        <<jump End>>
+    -> What's in it for me?
+        Rat King: Well wherefore is it thee art here?
+        Rat King: We hast the same goal in sight.
+            <<jump End>>
+===
 
+title: End
+---
+Rat King: We will drive the humans out of the forest,
+Rat King; and take back our land.
+Rat King: With your help we will destroy the dam, and the river will flow through the Everdark ocne more.
 ===
