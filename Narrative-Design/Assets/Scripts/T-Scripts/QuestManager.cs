@@ -52,10 +52,10 @@ public class QuestManager : MonoBehaviour
         }
     }
 
-    public void OnColliderEnter2D(Collider2D other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
 
-        if (other.gameObject.CompareTag("Bat") && questStage == 3)
+        if (other.gameObject.CompareTag("Bat") && questStage == 2)
         {
             fruits.SetActive(true);
         }
